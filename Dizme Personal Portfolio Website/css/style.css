@@ -8,10 +8,10 @@
 	scroll-behavior: smooth;
 }
 :root {
-	--bg-color: #ffffff;
-	--text-color: #000;
-	--secound-color: #a09dab;
-	--main-color: #f75023;
+	--bg-color: #ddc5a2;
+	--text-color: #301b28;
+	--secound-color: #523634;
+	--main-color: #b6452c;
 	--big-font: 5rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
@@ -243,6 +243,25 @@ header.sticky {
 .heading {
 	text-align: center;
 }
+
+.heading a {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(128, 103, 240, 1);
+	font-size: 17px;
+	color: var(--bg-color);
+	margin-right: 22px;
+	margin-bottom: 30px;
+}
+.heading a:hover {
+	transform: scale(1.1);
+	background: var(--main-color);
+	transition: 0.5s;
+}
 .heading h2 {
 	font-size: var(--h2-font);
 	font-weight: 500;
@@ -260,13 +279,16 @@ header.sticky {
 	line-height: 28px;
 }
 .portfolio-content {
+	width: 100%;
+	height: auto;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-	grid-gap: 2rem;
+	grid-gap: 5rem;
 	align-items: center;
 	margin-top: 5rem;
 	text-align: center;
 	cursor: pointer;
+	line-height: 1.1;
 }
 .col {
 	position: relative;
@@ -325,14 +347,15 @@ header.sticky {
 	opacity: 1;
 }
 
-.service-content {
+/* .service-content {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 5rem;
-}
-.row {
+} */
+
+/* .row {
 	background: #ffffff;
 	box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
 	border-radius: 12px;
@@ -376,7 +399,7 @@ header.sticky {
 	will-change: transform;
 	transform: perspective(1000px) rotateX(4.8deg) rotateY(10.23deg)
 		scale3d(1.05, 1.05, 1.05);
-}
+} */
 
 .cta-box {
 	display: grid;
