@@ -347,15 +347,15 @@ header.sticky {
 	opacity: 1;
 }
 
-/* .service-content {
+.service-content {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 5rem;
-} */
+}
 
-/* .row {
+.row {
 	background: #ffffff;
 	box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
 	border-radius: 12px;
@@ -399,7 +399,7 @@ header.sticky {
 	will-change: transform;
 	transform: perspective(1000px) rotateX(4.8deg) rotateY(10.23deg)
 		scale3d(1.05, 1.05, 1.05);
-} */
+}
 
 .cta-box {
 	display: grid;
